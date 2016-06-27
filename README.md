@@ -21,6 +21,7 @@ Conclusion taken from many_semaphores
  + *                5.774460e+00s
  + *                5.884847e+00s
  + *                5.742924e+00s
+ 
 Conclusion: If we compare the worse run times for
  all tests, we see that semaphores perform
           worse than mutexes in general. Also, semaphores perform 
@@ -44,6 +45,7 @@ Language: C
  *    cyclic-distribution  |1.356111e-01 s|6.590509e-02 s|2.043180e-01 s|
  *                         |9.272599e-02 s|6.575704e-02 s|2.283041e-01 s|
  *
+
    Results:
  Overrall it looks like pthreads struggle with block-distribution. Cylic-
     distribution has slightly faster run-times.
