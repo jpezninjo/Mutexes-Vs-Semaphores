@@ -82,9 +82,11 @@ Conclusion taken from parallel_mat_vect.c
  *     3.  Omg I finished and everyone else in the lab rn can't even do penguin cluster
  *     4.  The results below are for one test of each case and do no represent
                 true timings for testing an x by x matrix with n processors
- *
- *     TEST RESULTS
- *     Processors   500x500     1000x1000       2000x2000
- *          1       0.003480    0.013639       0.053689
- *          2       0.001866    0.006997        0.027409    
- *          4       0.001060    0.003797        0.013929    
+
+
+ TEST RESULTS
+| Processors | 500x500 | 1000x1000 |2000x2000|
+|:------------:|:---------:|:-----------:|:---------:|
+|1           |0.003480 | 0.013639  | 0.053689|
+|2           |0.001866 | 0.006997  | 0.027409|    
+|4           |0.001060 | 0.003797  | 0.013929|    
