@@ -80,7 +80,7 @@ Conclusion taken from parallel_mat_vect.c
  *     1.  Local storage for A, x, and y is dynamically allocated.
  *     2.  Number of processes (p) should evenly divide both m and n.
  *     3.  Omg I finished and everyone else in the lab rn can't even do penguin cluster
- *     4.  The results are for one test of each case and don't represent true timings for testing an x * x matrix with n processors
+ *     4.  The results are for one test of each case and don't represent accurate performance
 
 
  TEST RESULTS
