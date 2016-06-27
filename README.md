@@ -3,10 +3,7 @@
 An experiment that tests the time performance of mutexes and semaphors for my Parallel Programming class
 Language: C
 
-Conclusion taken from many_semaphores
-
-Results:  
-
+Results and conclusion taken from many_semaphores
 
 |Mutex results with 1 penguin nodes|
 |:---------------------------------------|
@@ -34,11 +31,17 @@ Results:
 |5.774460e+00s|
 |5.884847e+00s|
 |5.742924e+00s|
+
+
+
+
  
 Conclusion: If we compare the worse run times for
  all tests, we see that semaphores perform
  worse than mutexes in general. Also, semaphores perform 
  worse on server nodes than on local (lab) computers with **drastically longer** run times.
+
+
 
 
 
@@ -50,7 +53,10 @@ Language: C
 
 Conclusion taken from pth_mat_vect_rand.c
 
- *    Number of threads: 4
+
+Number of threads: 4
+
+
 block-distribution followed by  cyclic-distribution
 
 |8,000,000 x 8 |8,000 x 8,000 |8 x 8,000,000 |
@@ -62,9 +68,14 @@ block-distribution followed by  cyclic-distribution
 |9.272599e-02 s|6.575704e-02 s|2.283041e-01 s|
 
 
-   Results:
- Overrall it looks like pthreads struggle with block-distribution. Cylic-
-    distribution has slightly faster run-times.
+
+
+
+
+Results:
+
+
+Overrall it looks like pthreads struggle with block-distribution. Cylic-distribution has slightly faster run-times.
 
 
 
