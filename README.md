@@ -37,9 +37,8 @@ Results:
  
 Conclusion: If we compare the worse run times for
  all tests, we see that semaphores perform
-          worse than mutexes in general. Also, semaphores perform 
-      worse on server nodes than on local (lab) computers with 
- + *             drastically longer run times.
+ worse than mutexes in general. Also, semaphores perform 
+ worse on server nodes than on local (lab) computers with **drastically longer** run times.
 
 
 
